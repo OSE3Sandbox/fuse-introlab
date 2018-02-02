@@ -47,22 +47,18 @@ Now, instead of trigger the database select with a timer, we are going to trigge
 replace
 
 ```
-<from id="time1" uri="timer:timerName?repeatCount=1"/>
+<from id="_from1" uri="timer:timerName?repeatCount=1"/>
 ```
 
 with
 
 ```
-<from id="direct1" uri="direct:getallcustomer"/>
+<from id="_from1" uri="direct:getallcustomer"/>
 ```
 
 Next up, we are going to add all the dependencies needed to the maven **pom.xml** file
 
 ```
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-servlet-starter</artifactId>
