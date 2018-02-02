@@ -17,7 +17,7 @@ In Advance project setup, choose **Use a predefined template** and select **Fuse
 
 JBDS is going ask if you want to change to Fuse perspective, click yes. 
 
-Under *src/main/resources* duplicate **application.properties** and with name **application-dev.properties**, we are going to use this as the setting during our development time.
+Under *src/main/resources* duplicate (using copy and past) **application.properties** and with name **application-dev.properties**, we are going to use this as the setting during our development time.
 
 ![04-devproperties.png](./img/04-devproperties.png)
 
