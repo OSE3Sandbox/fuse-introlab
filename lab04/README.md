@@ -47,7 +47,8 @@ Before provisioning an on-premise API gateway environment, you will want to chec
     Otherwise login into OpenShift using the `oc login` command from the OpenShift Client tools you downloaded and installed in the previous step. The default login credentials are *username = "developer"* and *password = "developer"*:
 
     ```
-    oc login https://<OPENSHIFT-SERVER-IP>:8443 -u developer
+    oc login https://<OPENSHIFT-SERVER-IP>:8443 -u developer 
+    oc project myfuseproject
     ```
 
     You should see Login successful. in the output.
