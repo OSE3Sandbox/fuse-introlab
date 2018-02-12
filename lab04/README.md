@@ -14,7 +14,7 @@ In order to connect your Customers API to 3scale, you need to follow three simpl
 Before provisioning an on-premise API gateway environment, you will want to check on the following regarding your 3scale SaaS account :
 
 1. 3scale Domain
-    * You should know what the domain name is of your 3scale SaaS accoount is.
+    * You should know what the domain name is of your 3scale SaaS account is.
 
     * The name of your 3scale domain is referenced in the URL to your Administrative Portal of the 3scale SaaS environment. ie: https://&lt;YOURDOMAIN&gt;-admin.3scale.net/p/admin/dashboard.
 
