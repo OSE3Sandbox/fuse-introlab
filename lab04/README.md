@@ -143,7 +143,7 @@ Your 3scale Admin Portal (http://&lt;YOURDOMAIN&gt;-admin.3scale.net) provides a
 
     ![04-apicast.png](./img/04-apicast.png)
 
-6. Keep the **API Key (user_key)** Authentication.
+6. Scroll down, the keep the **API Key (user_key)** Authentication.
 
     ![05-authentication.png](./img/05-authentication.png)
 
